@@ -1,0 +1,23 @@
+body
+    {
+        /*screen dimensions*/
+        width:1297px;
+        height: 617px; 
+
+        /*bluring the background*/
+        background-image: url("images/mg.jpg");
+        backdrop-filter: blur(15px);
+        
+    }
+
+
+.camera    
+    {   
+
+        display: flex; /*puts all elements within a div in one line */ 
+        
+        align-items: center; /* puts items on horizontal center 
+        but you might want to hesh this out when dealing with qrids so that cell span works correctly*/
+        
+        justify-content: center;  /* puts items on vertical center*/
+    }

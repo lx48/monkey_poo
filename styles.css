@@ -1,0 +1,32 @@
+body
+    {
+        background-image: url("images/mg.jpg");
+        backdrop-filter: blur(15px);
+    }
+
+
+#login 
+    {
+        position: relative;
+        /*left: 300px;*/
+        top: 30px;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid black;
+        width: 300px;
+        height: 500px;
+    }
+
+#login2
+    {
+        /*border: 1px solid black;*/
+        position: relative;
+        top:100px;
+    }
+
+#textAarea
+    {
+        /*background-color: transparent;*/
+        width: 500px;
+        height: 250px;
+    }

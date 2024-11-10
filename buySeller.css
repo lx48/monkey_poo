@@ -1,0 +1,81 @@
+
+body
+{
+    width:1297px;
+    height: 617px; 
+    background-image: url("images/ab.avif");
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gridcontainer
+    {
+        border: 1px solid gray;
+        width: 500px;
+        height: 200px;
+    }
+
+#bsContainer
+    {
+        margin-top: 150px;
+        color: gray;
+        position: relative;
+        bottom: 40px;
+        border: 1px solid transparent;
+        /*background-color: rgb(5, 5, 5, 0.5);*/
+        display: grid;
+        gap: 3px;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 120px;
+
+    }
+.ls
+    {
+        font-family: Poppins;
+        font-weight: lighter;
+        font-size: large;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gray;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }    
+#bsContainer  > *
+    {   
+        text-decoration: none;
+        color: rgb(73, 73, 73);
+        font-weight: lighter;
+        font-size: large;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gray;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+#bsContainer :nth-child(1)
+    {
+        color: gray;
+        border: none;
+        font-weight: 500;
+        font-size: x-small;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        grid-column: 1 /span 2;
+        grid-row: 2;
+
+    }

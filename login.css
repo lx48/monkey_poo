@@ -1,0 +1,140 @@
+body
+    {
+        width:1297px;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        color: gray;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+#background3
+    {
+        width: 100%;
+        height: 700px;
+        background-image: url("images/ab.avif");
+        filter: blur(15px);
+        position: fixed;
+
+    }    
+#container
+    {
+
+        border: 1px solid black;
+        width: 300px;
+        height: 450px;
+        position: absolute;
+        top: 90px;
+        display: flex;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        border-radius: 4px;
+        border-color: rgb(128, 128, 128);
+        background-image: linear-gradient(to bottom, transparent, rgb(255, 255, 255, 0.5));
+        
+    }
+#lg
+    {
+        margin-bottom: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bolder;
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+
+        
+    }
+#container > *
+    {
+        margin-top: 60px;
+    }
+.loginClient
+    {
+        display: grid;
+        grid-template-columns: 30%;
+        width: 700px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 600px;
+        
+
+    }
+.loginClient > *
+    {
+        height: 25px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        padding-left: 5px;
+        /*background-color: black;*/
+       
+    }
+
+.loginClient :nth-child(4)
+    {
+        height: 70px;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        padding-top: 10px;
+
+    }
+.loginClient :nth-child(5)
+    {
+        width: 100px;
+        justify-content: center;
+        border: 1px solid gray;
+        margin-top: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: transparent;
+    }  
+#usr
+    {
+        background-color: transparent;
+        position: relative;
+        bottom: 12px;
+    }    
+
+input
+    {   
+        outline: none;
+        color: gray;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: transparent;
+    }
+select
+    {
+        outline: none;
+        color: gray;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+form
+    {   z-index: 3;
+        align-items: center;
+        border: 1px solid transparent;
+        width: 70%;
+    }
+.g
+    {
+        position: relative;
+        top: 30px;
+        font-size: x-small;
+    }
+a
+    {
+        color: gray;
+    }
+button
+    {
+        color: gray;
+    }

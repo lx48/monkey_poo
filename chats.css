@@ -1,0 +1,46 @@
+body
+    {
+        width:1297px;
+        height: 617px; 
+        background-image: url("images/ab.avif");
+        backdrop-filter: blur(15px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+#back_out
+    {
+        position: relative;
+        width: 100px;
+        height: 40px;
+    }
+#back_out > *
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+
+    }
+
+/*#container
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+        height: 250px;
+        border: 1px solid black;
+    }
+.inside
+    {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+    }
+*/

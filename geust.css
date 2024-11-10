@@ -1,0 +1,10 @@
+body
+{
+    width:1297px;
+    height: 617px; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

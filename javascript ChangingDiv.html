@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p class="one">
+            This part must not change
+        </p>
+        <p id="two">
+            This part will change
+        </p>
+        <button id="cs" onclick="change()">change</button>
+        <script>
+            function change()
+                {
+                    document.getElementById("two").innerHTML = "HA HA";
+                }
+        </script>
+    </body>
+</html>

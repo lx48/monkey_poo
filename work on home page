@@ -1,0 +1,42 @@
+fvrts
+jquery mobole
+drop down list like massages
+click and go to the selected user profile
+
+notifications
+jquery mobole
+drop down list with date and time of massages
+
+massages 
+new element to the right side of the screen
+
+edit profile
+redirect to the edit profile page
+
+settings 
+data saving mode on or off
+
+minx
+redirect to the home page
+
+home
+redirect to the home page
+
+log in 
+change this to log out when there is an open session
+
+search 
+scan the database for the given user
+and return the user's profile page
+
+online
+scan for when the user is online
+
+blue tick
+blue tick the username when the user is verified
+
+rating
+results from the database
+
+privious and next page
+slice the results from the database

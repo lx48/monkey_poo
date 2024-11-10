@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+    {
+        font-family: Poppins;
+        width:1297px;
+        height: 1150px;
+        display: flex;
+        /*align-items: center;*/
+        justify-content: center;
+    }
+#page
+    {   
+        position: fixed;
+        background-color: black;/*
+        filter: blur(15px);
+        background-image: url("images/mg.jpg");*/
+        width:1297px;
+        height: 1200px;
+    }
+#homemain
+    {   position: absolute;
+        top: 50px;
+        /*z-index: 2;*/
+        position: relative;
+        bottom: 50px;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        /*border: 1px solid black;*/
+        width: 900px;
+        height: 450px;
+    }
+button
+    {
+        border: none;
+        background-color: transparent;
+    }
+#hometop
+    {
+        /*z-index: 2;*/
+        /*border: 1px solid gray;*/
+        height: 40px;
+        width: 750px;
+        /*background-color: rgb(12, 12, 12, 0.5);*/
+        /*display: flex;
+        align-content: center;
+        justify-content: center;*/
+        /*z-index: 2;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+        border-top: 1px solid gray;
+        /*border-bottom: 3px solid gray;*/        
+        padding-bottom: 20px;
+        padding-top: 10px;
+        transform: scale(0.8);        
+    }
+#hometop > *
+{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    /*width: 30px;
+    height: 30px;
+    margin: 3px;
+    padding: 3px;*/
+    width: 150px;
+    height: 50px;
+    margin: 3px;
+    /*border: 1px solid white;*/
+    /*border-radius: 20px;*/
+    color: white;
+    /*background-image: linear-gradient(to bottom, transparent, rgb(221, 221, 2, 0.5));*/
+    /*background-color: rgb(221, 221, 2);*/
+}
+.hometopkids > *
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*border: 1px solid white;*/
+        width: 100px;
+        height: 5px;
+    }
+.topIcons:hover
+    {
+        transition: 0.5s;
+        scale: 1.2;
+        /*border: 1px solid white;*/
+    }
+.topIcons
+{
+    /*display: inline-flex;
+    align-items: center;
+    justify-content: center;*/
+    /*position: absolute;*/
+    width:25px;
+    margin: 3px;
+    padding: 3px;
+    /*border: 1px solid white;*/
+    border-radius: 3px;
+}
+.number
+    {
+
+        /*display: flex;*/
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        /*bottom: 10px;*/
+        top: 6px;
+        left: 12px;
+        font-size: x-small;
+        font-weight: bolder;
+        /*border: 1px solid transparent;*/
+        height: 15px;
+        width: 15px;
+        border-radius: 8px;
+        background-color: rgb(159, 159, 228);
+        background-color: darkblue;
+        color: white;
+        
+    }
+#homemiddle
+    {
+        /*z-index: 2;*/
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        height: 850px;
+        /*grid-template-columns: auto auto auto auto auto auto;
+        height: 570px;*/
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        /*border: 1px solid white;*/
+        /*box-shadow: 2px 2px 10px 1px rgb(41, 40, 40);*/
+        
+        width: 750px;
+    }
+#homebottom
+    {
+        /*z-index: 2;*/
+        border: 1px solid transparent;
+        height: 50px;
+        width: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+#homebottom > *
+    {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 15px;
+        margin: 3px;
+        padding: 3px;
+        border: 1px solid gray;
+        border-radius: 3px;
+        color: white;
+        font-size: small;
+    }
+.grids
+    {   
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-items: center;
+        border: 1px solid grey;
+        width: 150px;
+        height: 250px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+a   {text-decoration: none;}    
+.small
+    {
+        height: 210px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+#ver
+    {
+        
+        position: relative;
+        bottom: 213px;
+        right: 10px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        width: 30px;
+        height: 30px;
+        /*background-color: white;*/
+        border-style: hidden;
+        /*border: 1px solid white;*/
+        font-size: x-small;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        /*transform: rotate(-45deg) ;*/
+        
+    }
+#homeuser
+    {
+        position: relative;
+        bottom: 35px;   
+        /*border: 1px solid black;*/
+        color:grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        /*float: right;*/
+        display: inline-flex;
+        
+    }
+#legit
+    {
+
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border-style: hidden;
+        background: blue;
+        color: white;
+        font-size: xx-small;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        /*transform: rotate(-45deg) ;*/        
+        overflow: visible;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+#vrfy
+    {
+        right: 0%;
+        margin: 2px;
+        float: left;
+        border-radius: 4px;
+        width: 45px;
+        padding: 2px;
+        color: white;
+        font-size: x-small;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }    
+#rating
+    {
+        float: left;
+        border: transparent;
+        /*border: 1px solid white;*/
+    }
+#verified
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 35px;
+        /*border: 1px solid white;*/
+        
+    }
+
+
+
+
+
+
+
+
