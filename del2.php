@@ -1,9 +1,12 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <div id="here">heeeee</div>
-<script>
-    var sls = document.getElementById("container"); sls.scrollTop = sls.scrollHeight;
-</script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='a_structure.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="container">
+            <a href="https://index.html">log in</a>
+        </div>
+    </body>
+    
+</html>
